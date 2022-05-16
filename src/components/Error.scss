@@ -1,0 +1,11 @@
+.mailbox__error {
+  @include container();
+  padding: 3rem 0;
+
+  h3 {
+    font-size: 1.25rem;
+    @include desktop {
+      font-size: 2rem;
+    }
+  }
+}

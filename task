@@ -1,0 +1,55 @@
+Zadanie praktyczne:
+
+1.    Zadanie będzie polegało na wygenerowaniu listy z danych zamockowanych w kodzie
+
+2.    Każdy element listy będzie miał checkboxa (checkbox zaznaczony lub nie na podstawie pola is_unread)
+
+3.    Trzeba będzie obsłużyć zmianę checkboxa
+
+4.    Wyświetlić informacje: ile elementów na liście jest aktualnie zaznaczonych
+
+5.    Obsłużyć routing - przechodzenie z listy do detalu danego elementu i na odwrót
+
+ 
+
+Przykład danych do wyświetlenia:
+
+[
+
+  {
+
+   
+
+    "id": 100795229,
+
+    "from": "Kalkulator OC/AC - Onet mailingi@onet.pl",
+
+    "sent_date": "2021-12-13 09:00:03",
+
+    "is_unread": false,
+
+    "subject": "Zaoszczędź! OC już od 230 zł",
+
+    "snippet": ""
+
+  },
+
+  {
+
+   
+
+    "id": 100795227,
+
+    "from": "Walutomat - Onet mailingi@onet.pl",
+
+    "sent_date": "2021-12-13 09:00:02",
+
+    "is_unread": false,
+
+    "subject": "Wymień walutę szybko i tanio",
+
+    "snippet": "Odbierz 50% rabatu na wymianę online"
+
+  }
+
+]

@@ -1,0 +1,17 @@
+.mailbox__header {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: $dark-green;
+  color: $white;
+
+  &__container {
+    @include container;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    @include desktop {
+      font-size: 3rem;
+    }
+  }
+}

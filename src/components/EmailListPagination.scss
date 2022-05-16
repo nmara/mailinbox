@@ -1,0 +1,60 @@
+@import "../vars.scss";
+
+.email-list__pagination {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  background-color: $white;
+  z-index: 2;
+  @include desktop {
+    padding: 0;
+  }
+
+  &__info {
+    margin: 0 1rem 0 0;
+  }
+
+  &__button {
+    padding: 0 1rem;
+    background: none;
+    color: $green; 
+    border: 0;
+    cursor: pointer;
+    @include desktop {
+      padding: 1rem;
+    }
+
+    &:hover {
+      background: none;
+    }
+
+    &[disabled] {
+      color: rgba($dark-grey, 0.5);
+      cursor: not-allowed;
+    }
+
+    &:before {
+      display: inline-block;
+      font-size: 1.5rem;
+      line-height: 1;
+      font-weight: bold;
+    }
+
+    &.prev {
+
+      &:before {
+        content: $arrow-left;
+      }
+    }
+
+    &.next {
+
+      &:before {
+        content: $arrow-right;
+      }
+    }
+  }
+}
